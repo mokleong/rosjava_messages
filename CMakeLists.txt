@@ -16,7 +16,6 @@ generate_rosjava_messages(
     std_msgs
     rosgraph_msgs            # ros/ros_comm_msgs
     std_srvs
-    rosjava_test_msgs        # rosjava/rosjava_test_msgs
     actionlib_msgs           # ros/common_msgs
     common_msgs
     diagnostic_msgs
@@ -45,7 +44,7 @@ generate_rosjava_messages(
     move_base_msgs           # ros-planning/navigation
     map_store                # ros-planning/map_store
 
-    roscpp                   # !!!!!!! REMOVE THIS ONCE https://github.com/ros-planning/navigation/pull/312 is fixed! !!!!!!!!
+    ids_msgs
 )
 
 catkin_package()

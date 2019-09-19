@@ -19,7 +19,6 @@
   <build_depend>std_msgs</build_depend>
   <build_depend>rosgraph_msgs</build_depend>            # ros/ros_comm_msgs
   <build_depend>std_srvs</build_depend>
-  <build_depend>rosjava_test_msgs</build_depend>        # rosjava/rosjava_test_msgs
   <build_depend>actionlib_msgs</build_depend>           # ros/common_msgs
   <build_depend>diagnostic_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
@@ -48,11 +47,8 @@
   <build_depend>map_store</build_depend>                # ros-planning/map_store
   -->
   <build_depend>move_base_msgs</build_depend>           # ros-planning/navigation
-
-  <!-- Temporary requirement so move_base_msgs compiles - remove once
-       https://github.com/ros-planning/navigation/pull/312 is fixed and released.
-  -->
-  <build_depend>roscpp</build_depend>           # ros-planning/navigation
+  
+  <build_depend>ids_msgs</build_depend>           # ids message
 
   <run_depend>rosjava_build_tools</run_depend>
   <run_depend>genjava</run_depend>
